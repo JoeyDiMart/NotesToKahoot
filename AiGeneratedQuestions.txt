@@ -1,34 +1,69 @@
-Q: What type of attack involves an attacker intercepting communication between two parties to steal or modify data?
-A: Phishing
-B: Man-in-the-Middle (MitM)
-C: SQL Injection
-D: Cross-Site Scripting (XSS)
+Q: Which OSI layer is responsible for logical addressing and routing?
+A: Data Link Layer
+B: Network Layer
+C: Transport Layer
+D: Session Layer
 CORRECT: B
 ---
-Q: Which of the following is a symmetric encryption algorithm?
-A: RSA
-B: Diffie-Hellman
-C: AES
-D: ECC
-CORRECT: C
----
-Q: What is the primary purpose of a honeypot in network security?
-A: To encrypt sensitive data
-B: To detect and analyze attacks by attracting malicious actors
-C: To filter incoming network traffic
-D: To store backup copies of critical files
+Q: What is the default subnet mask for a Class B IP address?
+A: 255.0.0.0
+B: 255.255.0.0
+C: 255.255.255.0
+D: 255.255.255.255
 CORRECT: B
 ---
-Q: Which authentication factor is represented by something you know?
-A: Fingerprint scan
-B: Smart card
-C: Password
-D: Security token
+Q: Which protocol operates on port 53?
+A: HTTP
+B: FTP
+C: DNS
+D: SMTP
 CORRECT: C
 ---
-Q: What does the principle of least privilege mean in security?
-A: Users should have the minimum level of access necessary to perform their job
-B: All users should have administrator privileges
-C: Passwords should be changed as infrequently as possible
-D: Security policies should be kept confidential
+Q: What type of cable uses light to transmit data?
+A: Coaxial cable
+B: Twisted pair cable
+C: Fiber optic cable
+D: Serial cable
+CORRECT: C
+---
+Q: What does DHCP stand for?
+A: Dynamic Host Configuration Protocol
+B: Domain Host Control Protocol
+C: Digital Host Communication Protocol
+D: Direct Hardware Configuration Process
 CORRECT: A
+---
+Q: Which device operates at Layer 2 of the OSI model?
+A: Router
+B: Hub
+C: Switch
+D: Repeater
+CORRECT: C
+---
+Q: What is the maximum distance for a Cat6 Ethernet cable?
+A: 50 meters
+B: 100 meters
+C: 200 meters
+D: 500 meters
+CORRECT: B
+---
+Q: Which IP address range is reserved for private networks?
+A: 192.168.0.0 to 192.168.255.255
+B: 10.0.0.0 to 10.0.0.255
+C: 172.16.0.0 to 172.31.255.255
+D: Both A and C
+CORRECT: D
+---
+Q: What does NAT stand for in networking?
+A: Network Address Translation
+B: National Access Technology
+C: Network Authentication Tool
+D: Node Address Transfer
+CORRECT: A
+---
+Q: Which topology connects all devices to a central hub or switch?
+A: Bus topology
+B: Ring topology
+C: Star topology
+D: Mesh topology
+CORRECT: C

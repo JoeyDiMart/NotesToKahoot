@@ -26,6 +26,8 @@ B: Option B
 C: Option C
 D: Option D
 CORRECT: {letter}
+
+Keep each option under 75 characters
 ###
 
 Be sure to paste the questions into AiGeneratedQuestions.txt ************************************
