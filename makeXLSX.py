@@ -30,7 +30,8 @@ CORRECT: {letter}
 
 Be sure to paste the questions into AiGeneratedQuestions.txt ************************************
 '''
-import csv
+import pandas as pd
+import openpyxl
 
 
 def cleanQuestions(q):
@@ -59,18 +60,13 @@ def cleanQuestions(q):
     return questions
 
 
-def createExcel(questions, output_file='KahootQuestions.csv'):
+def createExcel(questions, output_file='KahootQuestions.xlsx'):
     if not questions:
-        print("❌ No questions found! Check your AiGeneratedQuestions.txt format.")
+        print("check the .txt file there's no questions")
         return
 
-    with open(output_file, 'w', newline='', encoding='utf-8') as f:
-        fieldnames = ['Question', 'Answer 1', 'Answer 2', 'Answer 3', 'Answer 4', 'Time limit', 'Correct answer']
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-
-        writer.writeheader()
-        for q in questions:
-            writer.writerow(q)
+    df = pd.DataFrame(questions)
+    df.to_excel(output_file, index=False)
 
     print(f"Done! check {output_file}\nMake sure you go to Kahoot and hit import from spreadsheet")
 
