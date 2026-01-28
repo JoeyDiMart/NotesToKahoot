@@ -31,9 +31,42 @@ Keep each option under 75 characters
 ###
 
 Be sure to paste the questions into AiGeneratedQuestions.txt ************************************
+
+
+
+
+IF you have questions already you can use this format:
+
+
+###
+Reformat my {exam} study questions to follow the following format:
+Q: Question to be given?
+A: Option A
+B: Option B
+C: Option C
+D: Option D
+CORRECT: {letter}
+---
+Q: Second Question to be given?
+A: Option A
+B: Option B
+C: Option C
+D: Option D
+CORRECT: {letter}
+---
+etc.
+---
+Q: Last Question to be given?
+A: Option A
+B: Option B
+C: Option C
+D: Option D
+CORRECT: {letter}
+
+Keep each option under 75 characters
+###
 '''
 import pandas as pd
-import openpyxl
 
 
 def cleanQuestions(q):
