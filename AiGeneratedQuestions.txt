@@ -1,0 +1,34 @@
+Q: What type of attack involves an attacker intercepting communication between two parties to steal or modify data?
+A: Phishing
+B: Man-in-the-Middle (MitM)
+C: SQL Injection
+D: Cross-Site Scripting (XSS)
+CORRECT: B
+---
+Q: Which of the following is a symmetric encryption algorithm?
+A: RSA
+B: Diffie-Hellman
+C: AES
+D: ECC
+CORRECT: C
+---
+Q: What is the primary purpose of a honeypot in network security?
+A: To encrypt sensitive data
+B: To detect and analyze attacks by attracting malicious actors
+C: To filter incoming network traffic
+D: To store backup copies of critical files
+CORRECT: B
+---
+Q: Which authentication factor is represented by something you know?
+A: Fingerprint scan
+B: Smart card
+C: Password
+D: Security token
+CORRECT: C
+---
+Q: What does the principle of least privilege mean in security?
+A: Users should have the minimum level of access necessary to perform their job
+B: All users should have administrator privileges
+C: Passwords should be changed as infrequently as possible
+D: Security policies should be kept confidential
+CORRECT: A
