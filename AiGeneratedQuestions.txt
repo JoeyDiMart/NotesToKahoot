@@ -1,69 +1,104 @@
-Q: Which OSI layer is responsible for logical addressing and routing?
-A: Data Link Layer
-B: Network Layer
-C: Transport Layer
-D: Session Layer
+Q: What is a "clone phishing" attack?
+A: Creating a fake login page mimicking a real site
+B: Duplicating a legitimate email with malicious links
+C: Registering a domain that looks like a trusted brand
+D: Sending phishing emails from a cloned mail server
 CORRECT: B
 ---
-Q: What is the default subnet mask for a Class B IP address?
-A: 255.0.0.0
-B: 255.255.0.0
-C: 255.255.255.0
-D: 255.255.255.255
+Q: Which header field is most commonly spoofed in phishing emails?
+A: X-Mailer
+B: Reply-To
+C: From
+D: Received
+CORRECT: C
+---
+Q: What is "spear phishing" distinguished by?
+A: It uses SMS instead of email
+B: It targets executives only
+C: It uses personal info to target specific individuals
+D: It relies on malicious attachments only
+CORRECT: C
+---
+Q: Which phishing technique hijacks a user's DNS to redirect traffic?
+A: Typosquatting
+B: Pharming
+C: Smishing
+D: Whaling
 CORRECT: B
 ---
-Q: Which protocol operates on port 53?
-A: HTTP
-B: FTP
-C: DNS
-D: SMTP
-CORRECT: C
----
-Q: What type of cable uses light to transmit data?
-A: Coaxial cable
-B: Twisted pair cable
-C: Fiber optic cable
-D: Serial cable
-CORRECT: C
----
-Q: What does DHCP stand for?
-A: Dynamic Host Configuration Protocol
-B: Domain Host Control Protocol
-C: Digital Host Communication Protocol
-D: Direct Hardware Configuration Process
-CORRECT: A
----
-Q: Which device operates at Layer 2 of the OSI model?
-A: Router
-B: Hub
-C: Switch
-D: Repeater
-CORRECT: C
----
-Q: What is the maximum distance for a Cat6 Ethernet cable?
-A: 50 meters
-B: 100 meters
-C: 200 meters
-D: 500 meters
+Q: What does a phishing email using "urgency" attempt to exploit?
+A: The victim's technical knowledge
+B: The victim's fear and reduced critical thinking
+C: The victim's desire for financial gain
+D: The victim's trust in known senders
 CORRECT: B
 ---
-Q: Which IP address range is reserved for private networks?
-A: 192.168.0.0 to 192.168.255.255
-B: 10.0.0.0 to 10.0.0.255
-C: 172.16.0.0 to 172.31.255.255
-D: Both A and C
-CORRECT: D
+Q: What is an "evil twin" attack in the context of phishing?
+A: Registering two similar domains to confuse victims
+B: Cloning a legitimate Wi-Fi network to intercept data
+C: Sending duplicate phishing emails with different links
+D: Creating two fake login pages for the same site
+CORRECT: B
 ---
-Q: What does NAT stand for in networking?
-A: Network Address Translation
-B: National Access Technology
-C: Network Authentication Tool
-D: Node Address Transfer
-CORRECT: A
+Q: Which of these is a red flag indicating a phishing URL?
+A: Uses HTTPS with a valid certificate
+B: Domain matches the company name exactly
+C: Uses a subdomain like paypal.login.evil.com
+D: Contains the company logo in the favicon
+CORRECT: C
 ---
-Q: Which topology connects all devices to a central hub or switch?
-A: Bus topology
-B: Ring topology
-C: Star topology
-D: Mesh topology
+Q: What is "whaling" specifically targeting?
+A: Financial institutions and banks
+B: High-value executives like CEOs and CFOs
+C: Government and military personnel
+D: IT administrators with elevated privileges
+CORRECT: B
+---
+Q: What does a phishing kit typically contain?
+A: Exploit code for zero-day vulnerabilities
+B: Cloned web pages and credential harvesting scripts
+C: Keyloggers and remote access trojans
+D: Password crackers and network scanners
+CORRECT: B
+---
+Q: Which protocol can attackers abuse to send spoofed phishing emails?
+A: IMAP
+B: POP3
+C: SMTP
+D: SNMP
+CORRECT: C
+---
+Q: What is "vishing" and what makes it effective?
+A: SMS phishing that bypasses spam filters
+B: Voice phishing exploiting trust in phone calls
+C: Video phishing using deepfake technology
+D: Phishing via VoIP targeting corporate phones
+CORRECT: B
+---
+Q: What is the purpose of a "pixel tracker" in phishing emails?
+A: To deliver malware when the email is opened
+B: To confirm the email was opened and log victim info
+C: To bypass email spam filtering systems
+D: To embed hidden links in email images
+CORRECT: B
+---
+Q: Which SMTP header can reveal if an email sender was spoofed?
+A: Subject
+B: Content-Type
+C: Received
+D: MIME-Version
+CORRECT: C
+---
+Q: What is "smishing" and which vector does it use?
+A: Phishing via social media direct messages
+B: Phishing via malicious QR codes
+C: Phishing via SMS text messages
+D: Phishing via fake mobile applications
+CORRECT: C
+---
+Q: What does DMARC policy "p=reject" instruct receiving servers to do?
+A: Flag suspicious emails and deliver them to spam
+B: Quarantine all emails from the sender domain
+C: Reject emails that fail SPF and DKIM checks
+D: Forward failed emails to a security analyst
 CORRECT: C
